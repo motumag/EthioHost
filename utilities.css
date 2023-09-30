@@ -79,6 +79,15 @@
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
 /* Margin custom utilites */
 .my-1 {
   margin: 1rem 0;
