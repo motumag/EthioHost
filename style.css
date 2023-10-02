@@ -173,6 +173,18 @@ img {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
+.feature-main .card > i {
+  margin-right: 30px;
+}
+.feature-main .grid > {
+  padding: 30px;
+}
+.feature-main .grid > *:first-child {
+  grid-column: 1 / span 3;
+}
+.feature-main .grid > *:nth-child(2) {
+  grid-column: 1 / span 2;
+}
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
@@ -200,6 +212,20 @@ p {
 .features-head img {
   max-width: 200px;
   justify-self: flex-end;
+}
+.features-head h1 {
+  font-size: 50px;
+  color: #fff;
+}
+.features-sub-head img {
+  max-width: 400px;
+  justify-self: flex-end;
+}
+.features-sub-head p {
+  color: black;
+}
+.feature-main p {
+  color: black;
 }
 
 /* Footer */
